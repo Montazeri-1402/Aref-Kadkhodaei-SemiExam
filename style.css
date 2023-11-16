@@ -1,0 +1,125 @@
+nav {
+    /* background-color: #333; */
+    color: black;
+    padding: 10px;
+    width: 500px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.rotated-image {
+    height: 60rem;
+    /* width: 60rem; */
+    z-index: -1;
+    transform: rotate(-60deg);
+    position: absolute;
+    right: -694px;
+    top: -521px;
+    border-radius: 200px 0 0 250px;
+    object-position: -375px;
+}
+
+.container {
+    height: 1000px;
+    /* background-image: url("images/main.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-color: #cccccc; */
+    background-position: top right;
+    background-size: auto;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1rem 6rem;
+}
+
+.top-header {
+    display: flex;
+    height: 100px;
+}
+
+.logo {
+    width: 40%;
+}
+
+.navbar {
+    width: 60%;
+}
+
+.get-anything {
+    margin-top: 10rem;
+    margin-right: 1000px;
+}
+
+.get-anything button {
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: purple;
+}
+
+.explain {
+    margin: 3rem;
+}
+
+.top-explain {
+    height: 400px;
+    margin-top: 7rem;
+    display: flex;
+}
+
+.top-explain>img {
+    width: 400px;
+}
+
+.explain-overlay {
+    height: 150px;
+    position: absolute;
+    right: 5rem;
+    bottom: -350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 1rem solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    height: 100px;
+
+}
+
+.offer {
+    width: 60%;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.offer-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-card {
+    height: 100px !important;
+    width: 100px !important;
+    background-color: #eee;
+    margin: 0 3rem;
+}
